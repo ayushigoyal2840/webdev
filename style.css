@@ -1,0 +1,28 @@
+body{
+    margin: 40;
+    padding: 40;
+    font-family: sans-serif;
+    background: url(IMG_20190818_145438.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:500px;
+    padding: 2rem;
+    background:rgba(4, 90, 47, 0.451);
+    box-sizing: border-box;
+    box-shadow: 0 16px 26px rgba(0,0,0,.4);
+    border-radius: 12px;
+    text-align: center;
+}
+.container h2{
+    color: #fff;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: 100;
+}
